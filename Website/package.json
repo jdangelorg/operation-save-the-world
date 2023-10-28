@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "conc": "concurrently \"nodemon server/ao_site.js\" \"npm --prefix client start\""
+  }
+}

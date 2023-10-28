@@ -2,7 +2,28 @@
 .DS_Store
 
 #back-end folder
-back-end-ao-site/node_modules
-back-end-ao-site/.DS_Store
+server/node_modules
+server/.DS_Store
 
 #front-end folder
+## dependencies
+client/node_modules
+client/.pnp
+client/.pnp.js
+
+## testing
+client/coverage
+
+## production
+client/build
+
+## misc
+client/.DS_Store
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
