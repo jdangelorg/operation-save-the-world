@@ -3,6 +3,7 @@
     "concurrently": "^8.2.2"
   },
   "scripts": {
-    "conc": "concurrently \"nodemon server/ao_site.js\" \"npm --prefix client start\""
+    "conc": "concurrently \"nodemon server/ao_site.js\" \"npm --prefix client start\"",
+    "heroku-postbuild": "cd Website/client && npm install && npm run build"
   }
 }
