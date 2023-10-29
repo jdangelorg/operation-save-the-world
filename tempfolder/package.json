@@ -4,6 +4,6 @@
   },
   "scripts": {
     "conc": "concurrently \"nodemon server/ao_site.js\" \"npm --prefix client start\"",
-    "heroku-postbuild": "cd website/client && npm install && npm run build"
+    "heroku-postbuild": "cd Website/client && npm install && npm run build"
   }
 }
