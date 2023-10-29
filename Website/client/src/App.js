@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>Hello :), welcome to my new website!</p>
+      <p>My links 👇🏽</p>
+      <a href="https://discord.gg/YWh3FnwR6z" target="_blank">AngelOrg Discord</a>
+      <a href="https://twitter.com/jdangelorg" target="_blank">X</a>
+      <a href="https://instagram.com/jdsworld.7" target="_blank">Instagram</a>
+      <a href="https://github.com/jdangelorg" target="_blank">Github</a>
     </div>
   );
 }
